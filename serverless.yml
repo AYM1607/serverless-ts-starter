@@ -2,6 +2,7 @@ service: serverless-ts-starter # NOTE: update this with your service name
 
 plugins:
   - serverless-webpack
+  - serverless-offline
 
 custom:
   webpack:
